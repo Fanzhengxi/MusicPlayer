@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/left_drawer"
+    android:layout_width="240dp"
+    android:layout_height="match_parent"
+    android:background="#fff">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/deepred"
+        android:layout_height="46dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="20sp"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:textColor="#fff"
+            android:text="本地歌曲"/>
+        <android.support.v7.widget.SearchView
+            android:id="@+id/searchView"
+            android:iconifiedByDefault="false"
+            android:layout_width="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_height="wrap_content">
+        </android.support.v7.widget.SearchView>
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/allMusicListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </ListView>
+
+</LinearLayout>
