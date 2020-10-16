@@ -8,6 +8,9 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 
+/**
+ * 2020/10/16
+ */
 public class MainActivity extends AppCompatActivity {
 
     @Override
